@@ -1,0 +1,38 @@
+/* Write your code here. */
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-container {
+  background-color: #cffafe;
+  height: 100%;
+  width: 50%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.heading {
+  font-size: 40px;
+  font-family: "roboto";
+  color: black;
+  font-weight: normal;
+}
+.name {
+  font-size: 25px;
+  color: #1e293b;
+  font-weight: normal;
+  font-family: "roboto";
+}
+.description {
+  font-size: 15px;
+  color: #1e293b;
+  text-align: center;
+  font-weight: normal;
+  font-family: "roboto";
+}
